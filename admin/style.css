@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway:wght@200;400&family=Ubuntu&display=swap');
+h1{text-align: center;}
+.tbl-admin td>section{margin-top: 20px}
+a {
+    color: #000;
+    text-decoration: none;
+}
+body,.body-panel {
+    height: 100vh;
+}
+.admin-menu {
+    height: 10vh;
+    background-color: #fff;
+    color: #000;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.admin-menu-panel {
+    height: 90vh;
+    background-color: #fff!important;
+    color: #000;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px!important;
+}
+tr td {
+    border: none!important;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+.title-panel {
+    font-size: 3rem;
+    text-align: center;
+}
+.admin-menu-box {
+    width: 20%;
+    transition: 0.5s;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* .admin-menu-box:hover {
+    width: 15%;
+    opacity: 1;
+}  */
+/* .admin-menu-logo {
+    position: relative;
+    top: 0;
+    left: -10px;
+    transition: .5s;
+    width: 0;
+} */
+/* .admin-menu-box:hover > .admin-menu-logo {
+    left: 0;
+} */
+.admin-menu-panel section {
+    padding: 10px;
+}
+.admin-menu-panel section:hover {
+    background-color: aliceblue;
+}
+.admin-menu-panel section:hover a {
+    color: cornflowerblue;
+    cursor: pointer;
+}
+.admin-menu-panel a {
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.admin-menu-panel i {
+    font-size: 0.7rem;
+    padding: 0 10px;
+}
+.order-control {
+    display: flex;
+    align-items: center;
+}
+.order-number {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.brand-table {
+    width: 90%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.overflow-auto {
+    height: 70vh;
+}
+.add-btn {
+    margin-top: 20px;
+}
+.user-admin {
+    text-align: right!important;
+    position: relative;
+    top: 0;
+    right: 30px;
+    cursor: pointer;
+}
+.user-admin-detail {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: none;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    text-align: center;
+}
+.user-admin:hover > .user-admin-detail {
+    display: block;
+}
+.btn-product {
+    width: 100%;
+}
+@media only screen and (min-width:769px) and (max-width:1281px) {
+    .admin-menu-box {
+        width: 30%;
+    }
+    .product-image,.btn-product,.container {
+        width: 100%!important;
+    }
+}
+@media only screen and (max-width:768px) {
+    .admin-menu-panel {
+        border-right: 3px solid;
+    }
+}
